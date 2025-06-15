@@ -1,1 +1,7 @@
-ECHO is on.
+/* base.css (Example if needed) */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
