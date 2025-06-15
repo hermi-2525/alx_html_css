@@ -1,55 +1,48 @@
-/* Make the whole body a flex container in column layout */
+/* Task 1 & 2 layout using Flexbox */
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  font-family: Arial, sans-serif;
 }
 
-/* The main section is also a flex container in row layout */
 main {
   display: flex;
-  flex-direction: row;
   flex: auto;
 }
 
-/* Article takes up two-thirds */
 article {
   flex: 2;
   overflow-y: auto;
-  padding: 1em;
-  background-color: #f0f0f0;
+  padding: 1rem;
+  background-color: #f9f9f9;
 }
 
-/* Aside takes up one-third */
 aside {
   flex: 1;
   overflow-y: auto;
-  padding: 1em;
-  background-color: #e0e0e0;
+  padding: 1rem;
+  background-color: #eee;
 }
 
-/* Optional styles for header and footer */
 header, footer {
   background-color: #333;
   color: white;
-  padding: 1em;
-  text-align: center;
+  padding: 1rem;
 }
 
-/* Navigation styling */
-nav ul {
+header ul {
   list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
   padding: 0;
 }
 
-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+header ul li:first-child {
+  font-size: 1.5rem;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
+.logo {
+  font-size: 2rem;
 }
