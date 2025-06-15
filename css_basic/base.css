@@ -1,10 +1,7 @@
-/* Example base.css */
-.logo {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.works_on_smartphone {
-  font-size: 1rem;
-  line-height: 1.5;
+/* base.css (Example if needed) */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
