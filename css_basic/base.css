@@ -1,1 +1,33 @@
-ECHO is on.
+/* base.css */
+
+/* Reset margins and set font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header and footer style */
+header, footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Basic style for main sections */
+article, aside {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+/* Aside background */
+aside {
+  background-color: #e7e7e7;
+}
+
+/* Logo style (to be used later) */
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
